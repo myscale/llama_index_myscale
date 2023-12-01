@@ -5,7 +5,7 @@ from llama_index.storage import StorageContext
 import clickhouse_connect
 import utils
 
-all_docs_gen = Path("./docs.myscale.ai/").rglob("*")
+all_docs_gen = Path("./docs.myscale.com/").rglob("*")
 all_docs = [{"path": doc.resolve()} for doc in all_docs_gen]
 blog_nodes = {"embedded_nodes": []}
 for docs in all_docs:
