@@ -1,2 +1,2 @@
 # llama_index_myscale
-An example about using myscale with llama_index
+An example on how to use MyScale with LlamaIndex
